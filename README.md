@@ -60,8 +60,7 @@ The full sequence of commands is:
     ./Configure darwin64-x86_64-cc
     make depend
     make
-
-    gcc ../heartleech/heartleech.c libssl.a libcrypto.a -o heartleech -I./include
+    gcc ../heartleech.c libssl.a libcrypto.a -o heartleech -I./include
 
 This makes the 64-bit version. If you want 32-bit, PowerPC, and/or univeral
 executables, there are some extra steps to do. It starts with having a separate
